@@ -1,7 +1,7 @@
 import { Page } from '../types';
 
 const page: Page = {
-    title: 'Расходы бюджета города Москвы => ГРБС',
+    title: 'Sample => ГРБС',
     url: 'expenses/ppp',
     urlParams: [],
 

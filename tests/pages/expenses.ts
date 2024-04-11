@@ -4,7 +4,7 @@ import { configuration as _config } from '../data'
 const longWaitTime = 20000;
 
 const page: Page = {
-    title: 'Расходы бюджета города Москвы => Главная',
+    title: 'Sample => Главная',
     url: 'expenses',
     urlParams: [
         { key: 'autotests', value: 'on' }
@@ -50,7 +50,6 @@ const page: Page = {
             }
         ],
         actions: [
-            /*
             {
                 key: 'date',
                 action: 'set-datepicker-filter',
@@ -95,18 +94,17 @@ const page: Page = {
                     }
                 ]                
             },
-            */
         ]
     },
 
     kpis: {
         items: [
-            "Расходы",
-            "Расходы без межбюджетных трансфертов",
-            "Межбюджетные трансферты",
-            "Расходы на закупку товаров, работ, услуг",
-            "Бюджетные инвестиции",
-            "Субсидии бюджетным и автономным учреждениям"
+            "Sample",
+            "Sample",
+            "Sample",
+            "Sample",
+            "Sample",
+            "Sample"
         ],
         validate: ['existence', 'units']
     },
@@ -115,7 +113,7 @@ const page: Page = {
         items: [
             {
                 key: "NewExpensesTable",
-                title: "Исполнение бюджета по расходам",
+                title: "Sample",
                 filters: [
                     {
                         key: 'grbsFilter',
